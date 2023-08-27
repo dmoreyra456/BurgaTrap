@@ -1,0 +1,23 @@
+
+.body{
+    background-image: url(../assets/fondoPagina.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.barraDeNavegacion{
+    color: #2DF20F;
+    font-size: 25px;
+}
+.indexHeader{
+    text-align: center;
+    font-size: 25px;
+}
+.indexHeader{
+    text-align: center;
+    
+}
+.mainNuestrosLocales{
+    text-align: center;
+}
+
