@@ -1,23 +1,101 @@
-
-.body{
-    background-image: url(../assets/fondoPagina.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.barraDeNavegacion{
+body {
+    background-image: url('../assets/fondoPagina2.jpg');
+    background-size: 100%;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #2DF20F;
+}
+
+.barraDeNavegacion {
     color: #2DF20F;
     font-size: 25px;
 }
-.indexHeader{
+
+.header {
     text-align: center;
     font-size: 25px;
 }
-.indexHeader{
-    text-align: center;
-    
+
+.header h1 {
+    color: #2DF20F;
 }
+
+.header img {
+    border-radius: 10%;
+    width: 10%;
+    height: 10%;
+}
+
+/*
 .mainNuestrosLocales{
     text-align: center;
 }
+*/
+/*nuevos estilos*/
+.box {
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.box img {
+    border-radius: 10%;
+}
+
+.box h3 {
+    margin-top: 0;
+}
+
+.flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+    color: #2DF20F;
+    padding: 2%;
+    margin-bottom: 1%;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+
+footer img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 10%;
+}
+
+.instagram{
+    width: 4.4rem;
+    height: 3.8rem;
+}
