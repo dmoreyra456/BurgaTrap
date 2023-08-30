@@ -5,7 +5,7 @@ body {
 }
 
 body {
-    background-image: url('../assets/fondoPagina2.jpg');
+    background-image: url(../assets/fondoPagina2.jpg);
     background-size: 100%;
     color: white;
 }
@@ -33,17 +33,12 @@ a:visited {
 }
 
 .header img {
-    border-radius: 10%;
+    border-radius: 50%;
     width: 10%;
     height: 10%;
 }
 
-/*
-.mainNuestrosLocales{
-    text-align: center;
-}
-*/
-/*nuevos estilos*/
+
 .box {
     margin: 1%;
     display: flex;
@@ -68,6 +63,10 @@ a:visited {
     color: white;
     font-size: large;
     font-weight: bold;
+}
+
+.navbar :hover {
+    color: red;
 }
 
 .navbar {
@@ -95,7 +94,122 @@ footer img {
     border-radius: 10%;
 }
 
-.instagram{
+.instagram {
     width: 4.4rem;
     height: 3.8rem;
 }
+
+.mainNuestrosLocales {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    font-size: larger;
+    grid-row: auto;
+}
+
+.mainNuestrosLocales p {
+    text-decoration: solid;
+    font-size: 3.125rem;
+}
+
+.mainNuestrosLocales p ul {
+    font-size: 3.125rem;
+    text-decoration: double;
+}
+
+
+.mainNuestrosProductos {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    grid-template-rows: auto auto;
+
+}
+
+.mainNuestrosProductos h1 {
+    grid-template-columns: 100%;
+
+}
+
+.flexContainerNosotros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-size: large;
+    margin: 1.875rem;
+}
+
+.trabajoPropuesta {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainTrabajo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.formulario {
+    color: white;
+    border: white solid 1px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.formulario div input {
+    border-radius: 3%;
+    border-style: none;
+    margin: 0.3%;
+    padding: 0.5%;
+    background-color: #269115;
+    color: white;
+}
+
+.formulario div input::placeholder {
+    text-align: center;
+    color: rgba(250, 235, 215, 0.747);
+}
+
+.formulario div button {
+    border-radius: 5%;
+    border-style: none;
+    background-color: #2DF20F;
+    color: white;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+@media (min-width: 425) {
+    .mediaLocales .header img{
+        border-radius: 50%;
+        width: 10%;
+        height: 10%; 
+    }
+}
+
+@media (min-width: 768px) {
+
+    .mediaLocales .header img{
+        border-radius: 20%;
+        width: 20%;
+        height: 20%; 
+    }
+}
+
+@media (min-width:1024px) {
+    .mediaLocales .header img{
+        border-radius: 5%;
+        width: 50%;
+        height: 50%; 
+    }
+}
+
+
+

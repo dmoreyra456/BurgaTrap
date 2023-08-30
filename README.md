@@ -1,4 +1,14 @@
 # BurgaTrap
 
+### Las siguientes páginas son responsivas y utilizan las siguientes tecnologías:
 ## index.html
-La página index utiliza flexbox.
++ Flexbox
+## nuestrosProductos.html 
++ Grids
+## nuestrosLugares.html
++ Mediaquery
+## nosotros.html 
++ Flexbox
+## trabajaconNosotros.html
++ Flexbox 
++ Bootstrap
