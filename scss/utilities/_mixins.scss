@@ -1,0 +1,28 @@
+@mixin flex ($wrap, $justify,$align,$margin,$color,$size,$weight){
+    display: flex;
+    flex-wrap: $wrap;
+    justify-content: $justify;
+    align-items: $align;
+    margin: $margin;
+    color: $color;
+    font-size: $size;
+    font-weight: $weight;
+}
+
+@mixin boton-personalizado($backgroundColor,$color,$border,$padding,$radius,
+$cursor) {
+    background-color:$backgroundColor;
+    color: $color;
+    border: $border;
+    padding: $padding;
+    border-radius: $radius;
+    cursor: $cursor;
+}
+
+.footer{
+    @extend .flexContainer;
+}
+
+.flexContainerNosotros{
+    @extend .flexContainer;
+}

@@ -1,0 +1,11 @@
+{
+  "name": "burgatrapsass",
+  "version": "1.0.0",
+  "description": "+ Flexbox\r ## nuestrosProductos.html \r + Grids\r ## nuestrosLugares.html\r + Mediaquery\r ## nosotros.html \r + Flexbox\r ## trabajaconNosotros.html\r + Flexbox \r + Bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

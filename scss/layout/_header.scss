@@ -1,0 +1,43 @@
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+    color: $colorUno;
+    padding: 2%;
+    margin-bottom: 1%;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: $miFuente;
+    a {
+    text-decoration: none;
+    transition: 0.3s;
+
+
+    &:hover {
+        color: violet;
+        transform: scale(1.2);
+    }
+    }
+
+    @media screen and (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+
+    .menu-icon {
+        display: block;
+}
+
+.menu {
+        display: none;
+
+        &.active {
+            flex-direction: column;
+            align-items: center;
+            display: flex;
+        }
+    }
+}
+
+}
+
