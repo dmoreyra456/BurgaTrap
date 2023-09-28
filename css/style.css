@@ -160,6 +160,12 @@ footer img {
   align-items: center;
   color: white;
 }
+.mainTrabajo section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .formulario {
   color: white;
@@ -218,6 +224,16 @@ footer img {
     border-radius: 50%;
     width: 10%;
     height: 10%;
+  }
+  .mainTrabajo section {
+    width: 80%;
+  }
+  .mainTrabajo section img {
+    width: 80%;
+    height: 80%;
+  }
+  .mainTrabajo .formulario {
+    width: 80%;
   }
 }
 @media (min-width: 768px) {
