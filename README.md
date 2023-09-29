@@ -16,4 +16,9 @@
 + Hice las carpetas, entre ellas los partials para que todo se importe a style.scss. 
 + Hice nesting, es decir, anidé todo con sass. Hice dos mixin, uno con flex para ahorrar codigo y otro le agregué un nuevo formato al botón de la pagina "trabajaConNosotros".
 + le puse SEO a las páginas. Hice dos extends sobre los mixin para aprovechar el flex. 
-+ Para animaciones, por ultimo, hice rebotar el logo de la marca y con un hover cambié de color y escalé las palabras del navbar.
++ Para animaciones, por ultimo, hice rebotar el logo de la marca y con un hover cambié de color y escalé las palabras del navbar. 
+## Ultimas modificaciones
++ por ultimo se corrigió el responsive en trabajaConNosotros para que todo sea responsive
++ se elaboró un presupuesto
++ se subió a versel (con un consiguiente problema de que el deployment costaba en arrancar)
+# Gracias por todo el aprendizaje
