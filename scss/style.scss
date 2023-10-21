@@ -63,6 +63,16 @@ a {
 
 
 footer {
+	margin-top: 1%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	justify-items: center	;
+	background-color: black;
+	// flex-direction: column;
+	// min-height: 100vh;
+	// flex: 1;
+
 	img {
 		width: 3rem;
 		height: 3rem;
@@ -106,6 +116,7 @@ footer {
 	grid-template-columns: repeat(2, 1fr);
 	justify-items: center;
 	grid-template-rows: auto auto;
+	text-align: center;
 
 	h1 {
 		grid-template-columns: 100%;
@@ -194,7 +205,37 @@ footer {
 	}
 }
 
-@media (min-width: 425px) {
+// @media (max-width: 1024px) {
+// 	.mediaLocales .header img {
+// 		border-radius: 5%;
+// 		width: 50%;
+// 		height: 50%;
+// 	}
+// }
+
+@media (max-width: 1024px) {
+	.mediaLocales .header img {
+		border-radius: 20%;
+		width: 20%;
+		height: 20%;
+	}
+
+	.mainTrabajo {
+		section {
+			text-align: center;
+			padding: 2%;
+
+			img {
+				width: 95%;
+				border-radius: 3%;
+				margin: 1%;
+			}
+
+		}
+	}
+}
+
+@media (max-width: 768px) {
 	.mediaLocales .header img {
 		border-radius: 50%;
 		width: 10%;
@@ -206,7 +247,7 @@ footer {
 		section {
 			width: 80%;
 
-			img{
+			img {
 				width: 80%;
 				height: 80%;
 			}
@@ -218,18 +259,91 @@ footer {
 	}
 }
 
-@media (min-width: 768px) {
-	.mediaLocales .header img {
-		border-radius: 20%;
-		width: 20%;
-		height: 20%;
-	}
-}
+@media (max-width: 425px) {
+	.mainNuestrosProductos {
+		display: grid;
+		justify-content: center;
+		grid-template-columns: repeat(1, 2fr);
+		justify-items: center;
+		text-align: center;
+		grid-template-rows: auto auto;
 
-@media (min-width: 1024px) {
-	.mediaLocales .header img {
-		border-radius: 5%;
-		width: 50%;
-		height: 50%;
+		img {
+			margin-top: 5%;
+		}
+
+		h1 {
+			grid-template-columns: 100%;
+		}
+
+	}
+
+	.corona {
+		justify-items: center;
+	}
+
+	.mainNuestrosLocales {
+		display: grid;
+		justify-content: center;
+		grid-template-columns: auto;
+		grid-template-rows: auto;
+		font-size: larger;
+		grid-row: auto;
+
+		div {
+			p {
+				text-decoration: solid;
+				font-size: 3.125rem;
+				text-align: center;
+
+				ul {
+					li {
+						font-size: 3.125rem;
+						text-decoration: double;
+						text-align: center;
+
+
+					}
+				}
+			}
+		}
+
+		.localesDireccion {
+			text-align: center;
+		}
+	}
+
+
+	.mainTrabajo {
+		section {
+			text-align: center;
+			padding: 2%;
+
+			img {
+				width: 95%;
+				border-radius: 3%;
+				margin: 1%;
+			}
+
+
+		}
+
+		.formulario {
+			width: 95%;
+
+			input {
+				width: 90%;
+				align-items: center;
+				justify-content: center;
+				justify-items: center;
+				margin-left: 5%;
+			}
+
+			button {
+				width: 90%;
+				margin-left: 5%;
+				margin-top: 1%;
+			}
+		}
 	}
 }
